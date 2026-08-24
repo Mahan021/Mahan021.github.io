@@ -1,0 +1,26 @@
+*{
+    direction: rtl;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    gap: 1.4rem;
+}
+li{
+    list-style: none;
+}
+a{
+  text-decoration: none;
+  gap: 1.4rem;
+  color: gray;
+}
+@media screen and (max-width: 990px){
+    ul{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+}
